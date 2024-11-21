@@ -1,7 +1,7 @@
 body{
 	/* this is the outermost element on your page*/
 	background: yellow;
-	font-family: 'Fraunces', serif;
+	font-family: 'Space Mono', monospace;
 
 	.space-mono-regular {
 		font-family: "Space Mono", monospace;
