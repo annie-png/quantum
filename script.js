@@ -5,7 +5,11 @@ const textOptions = [
     "Schrodinger's Cat",
     "Planck's Constant",
     "Superposition",
-    "Quantum Tunneling"
+    "Quantum Tunneling",
+    "Sppoky Action At a Distance",
+    "Particle or Wave?",
+    "Heisenberg Principle",
+    "Spin"
   ];
   
   
