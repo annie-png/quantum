@@ -4,11 +4,20 @@
          url('Quantum.woff') format('woff'),
          url('Quantum.otf') format('opentype');
 }
+
+@media (max-width: 768px) {
+	.container {
+	  padding: 10px; /* Smaller padding for smaller screens */
+	}
+	.quantum {
+	  font-size: 6rem; /* Adjust text size for better fit */
+	}
+  }
+
 body {
 	font-family: space-mono-regular, serif;
 	background-color: #03030e;
 	color: white;
-	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,16 +26,29 @@ body {
   }
   
   .container {
-	text-align: center;
-	max-width: 700px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+	padding: 20px; /* Adds space inside the container */
+	max-width: 90em; /* Prevents text from touching screen edges */
+	width: 100%; /* Makes it stretch to the viewport width */
+  	text-align: center; /* Ensures all lines are centered */
+	word-wrap: break-word; /* Breaks long words */
   }
   
   .quantum {
 	font-family: 'Quantum', sans-serif;
-	font-size: 5rem;
+	font-size: 10rem;
 	font-weight: normal;
 	text-transform: uppercase;
 	transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+	line-height: 1.5;
+	margin: 0 auto; /* Centers the text block itself */
+  	text-align: center; /* Centers multiple lines */
+  	max-width: 100%; /* Prevents the text from overflowing */
+  	white-space: normal; /* Ensures text wraps properly */
+	overflow-wrap: break-word; /* Breaks long words */
   }
   
   button {
