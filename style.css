@@ -39,7 +39,7 @@ body {
   
   .quantum {
 	font-family: 'Quantum', sans-serif;
-	font-size: 10rem;
+	font-size: 6rem;
 	font-weight: normal;
 	text-transform: uppercase;
 	transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
