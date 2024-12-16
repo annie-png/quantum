@@ -1,7 +1,8 @@
 @font-face{
 	font-family: 'Quantum';
 	src: url('Quantum.woff2') format('woff2'),
-		url('Quantum.otf') format('opentype');
+         url('Quantum.woff') format('woff'),
+         url('Quantum.otf') format('opentype');
 }
 body {
 	font-family: space-mono-regular, serif;
