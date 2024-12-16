@@ -15,8 +15,8 @@
   }
 
 body {
-	font-family: space-mono-regular, serif;
-	background-color: #03030e;
+	font-family: instrument-serif-regular, serif;
+	background-color: #000000;
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -54,21 +54,22 @@ body {
   button {
 	margin-top: 20px;
 	padding: 10px 20px;
-	font-family: 'Space Mono', serif;
+	font-family: 'Instrument Serif', serif;
 	font-size: 1rem;
-	background-color: #ffffff;
-	color: rgb(0, 0, 0);
-	border: none;
-	cursor: pointer;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
+	background: none; /* Removes the background */
+  	color: rgb(255, 255, 255); /* Text color */
+  	border: none; /* Removes the border */
+  	cursor: pointer;
+  	transition: color 0.3s ease;
+	position: absolute; /* Fixes the button's position */
+	bottom: 200px; /* Position it 20px from the bottom */
+	left: 50%; /* Center horizontally */
+	transform: translateX(-50%); /* Adjust to center the button properly */ 
   }
   
   button:hover {
-	background-color: #357ab8;
+	background: none; /* Ensures no background on hover */
+	font-style: italic; /* Apply italic on hover */
 
-
-  /* this is the outermost element on your page*/
-  background: yellow;
   }
   
